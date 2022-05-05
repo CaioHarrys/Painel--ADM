@@ -1,32 +1,44 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+<div class="section-1">
+  <div class="child-1">
+    <div class="text-ch-1">
+      <div class="name-1">Sharoon Tate</div>
+      <div class="perfil">
+        <img src="" alt="">
+        <p>26courses</p>
+      </div>
+    </div>
+    <div class="button-ch-1"><p>BUTTON</p></div>
+  </div>
+
+  <div class="child-2">
+    <p>img</p>
+    <p>img</p>
+  </div>
+</div>
+<div class="cone">
+  <div class="cone-child">
+        <h1>{{ msg }}</h1>
     <p>
       Vamos criar um painel administrativo do ZERO !
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
   </div>
+    <div class="cone-child">
+        <h1>{{ msg }}</h1>
+    <p>
+      Vamos criar um painel administrativo do ZERO !
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+    </p>
+  </div>
+    <div class="cone-child">
+        <h1>{{ msg }}</h1>
+    <p>
+      Vamos criar um painel administrativo do ZERO !
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+    </p>
+  </div>
+</div>
 </template>
 
 <script>
